@@ -1,3 +1,4 @@
+
 const Hero = () => {
   return <section id="home" className="min-h-screen flex items-center justify-center pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -28,11 +29,11 @@ const Hero = () => {
           
           <div className="order-1 lg:order-2 flex justify-center">
             <div className="relative">
-              <div className="w-80 h-80 md:w-96 md:h-96 bg-gradient-to-br from-teal-600 to-teal-800 rounded-full flex items-center justify-center overflow-hidden shadow-2xl">
-                <img alt="Robin Sebastian - Graphic Designer" src="/lovable-uploads/8c0bc4ed-0f3c-428b-8e98-61c996ec9bcf.png" className="w-full h-full object-scale-down" />
-              </div>
-              <div className="absolute -top-4 -right-4 w-24 h-24 bg-amber-400 rounded-full opacity-20 animate-pulse"></div>
-              <div className="absolute -bottom-6 -left-6 w-16 h-16 bg-teal-300 rounded-full opacity-30 animate-pulse"></div>
+              <img 
+                alt="Robin Sebastian - Graphic Designer" 
+                src="/lovable-uploads/d675957f-2b37-4406-beef-1040a2a42eb5.png" 
+                className="w-80 h-80 md:w-96 md:h-96 object-contain" 
+              />
             </div>
           </div>
         </div>
