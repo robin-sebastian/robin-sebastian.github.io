@@ -1,5 +1,3 @@
-
-
 const Hero = () => {
   return <section id="home" className="min-h-screen flex items-center justify-center pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -11,7 +9,7 @@ const Hero = () => {
               </span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-              I'm <span className="text-amber-500">Robin</span>
+              I'm <span className="text-amber-500">Robin Sebastian</span>
               <br />
               <span className="text-gray-800">Graphic Designer</span>
             </h1>
@@ -31,11 +29,7 @@ const Hero = () => {
           <div className="order-1 lg:order-2 flex justify-center">
             <div className="relative">
               <div className="w-80 h-80 md:w-96 md:h-96 bg-gradient-to-br from-teal-500 to-teal-700 rounded-full flex items-center justify-center overflow-hidden shadow-xl">
-                <img 
-                  alt="Robin Sebastian - Graphic Designer" 
-                  src="/lovable-uploads/d675957f-2b37-4406-beef-1040a2a42eb5.png" 
-                  className="w-full h-full object-contain" 
-                />
+                <img alt="Robin Sebastian - Graphic Designer" src="/lovable-uploads/d675957f-2b37-4406-beef-1040a2a42eb5.png" className="w-full h-full object-contain" />
               </div>
             </div>
           </div>
@@ -44,4 +38,3 @@ const Hero = () => {
     </section>;
 };
 export default Hero;
-
