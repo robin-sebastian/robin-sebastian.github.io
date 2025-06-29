@@ -5,7 +5,7 @@ const Hero = () => {
           <div className="order-2 lg:order-1">
             <div className="mb-6">
               <span className="text-sm font-medium text-teal-600 tracking-wider uppercase">
-                — HELLO
+                — Hi
               </span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
