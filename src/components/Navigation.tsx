@@ -58,7 +58,7 @@ const Navigation = () => {
                 key={item.name}
                 href={item.href}
                 className="text-gray-700 hover:text-teal-600 block px-3 py-2 text-base font-medium"
-                onClick={() => setIsOne(false)}
+                onClick={() => setIsOpen(false)}
               >
                 {item.name}
               </a>

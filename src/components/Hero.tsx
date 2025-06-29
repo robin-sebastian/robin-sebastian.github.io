@@ -30,15 +30,15 @@ const Hero = () => {
           
           <div className="order-1 lg:order-2 flex justify-center">
             <div className="relative">
-              <div className="w-80 h-80 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-teal-400 to-teal-600 p-1">
+              <div className="w-80 h-80 md:w-96 md:h-96 bg-gradient-to-br from-teal-600 to-teal-800 rounded-full flex items-center justify-center overflow-hidden shadow-2xl">
                 <img
-                  src="/lovable-uploads/dcc95e8d-c3ae-4374-9e11-36cc6f326705.png"
+                  src="/lovable-uploads/d675957f-2b37-4406-beef-1040a2a42eb5.png"
                   alt="Robin Sebastian - Graphic Designer"
-                  className="w-full h-full rounded-full object-cover"
+                  className="w-full h-full object-cover scale-110"
                 />
               </div>
-              <div className="absolute -top-4 -right-4 w-24 h-24 bg-amber-400 rounded-full opacity-20"></div>
-              <div className="absolute -bottom-6 -left-6 w-16 h-16 bg-teal-300 rounded-full opacity-30"></div>
+              <div className="absolute -top-4 -right-4 w-24 h-24 bg-amber-400 rounded-full opacity-20 animate-pulse"></div>
+              <div className="absolute -bottom-6 -left-6 w-16 h-16 bg-teal-300 rounded-full opacity-30 animate-pulse"></div>
             </div>
           </div>
         </div>
