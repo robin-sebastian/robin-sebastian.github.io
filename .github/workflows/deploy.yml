@@ -31,13 +31,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # Specify the Node.js version compatible with your project
+          node-version: '20' # Matches your devDependencies (@types/node: ^22.5.5)
 
       - name: Install Dependencies
-        run: npm install # Use 'yarn install' if you prefer Yarn
+        run: npm install
 
       - name: Build React App
-        run: npm run build # Use 'yarn build' if you prefer Yarn
+        run: npm run build
         env:
           CI: true # Treat warnings as errors for CI consistency
 
